@@ -1,24 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 
+// Clear the existing HTML content
+document.body.innerHTML = '<div id="app"></div>';
 
-function Page() {
- return(
-   <div>
-     <img src="./react-logo.png" width="40px" />
-     <h1>Fun facts about React</h1>
-     <ul>
-       <li>Was first released in 2013</li>
-       <li>Was originally created by Jordan Walke</li>
-       <li>Has well over 100K stars on GitHub</li>
-       <li>Is maintained by Facebook</li>
-       <li>Powers thousands of enterprise apps, including mobile apps</li>
-     </ul>
-   </div>
- );
-  
-}
-
-ReactDOM.render(<Page />, document.getElementById("root"));
-const root = createRoot(document.getElementById("root"));
-root.render(<Page />);
+// Render your React component instead
+const root = createRoot(document.getElementById("app"));
+root.render(<h1>Hello, world</h1>);
