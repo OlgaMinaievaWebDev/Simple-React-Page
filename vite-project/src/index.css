@@ -68,10 +68,3 @@ button:focus-visible {
 }
 
 
-nav {
-  display: flex;
-  align-items: center;
-  background-color: #12222A;
-  height: 90px;
-  padding: 30px 25px;
-}
