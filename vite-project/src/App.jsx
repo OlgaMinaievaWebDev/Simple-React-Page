@@ -1,5 +1,6 @@
 import "./App.css";
 import './navbar.css'
+import './section.css'
 import Navbar from "./Navbar";
 import Section from './Section'
 
